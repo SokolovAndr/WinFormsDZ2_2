@@ -13,23 +13,23 @@ namespace WinFormsDZ22
             {
                 if((e.X == 0) || (e.Y == 0))
                 {
-                    MessageBox.Show($"Клик левой кнопкой мыши на границе прямоугольника!", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show($"Left-click on the border of the rectangle!", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 }
                 else
                 {
-                    MessageBox.Show($"Клик левой кнопкой мыши внутри прямоугольника", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show($"Left-click inside the rectangle", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 }
             }
             if (e.Button == MouseButtons.Right)
             {
                 if ((e.X == 0) || (e.Y == 0))
                 {
-                    MessageBox.Show($"Клик правой кнопкой мыши на границе прямоугольника!", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show($"Right-click on the border of the rectangle!", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     MessageBox.Show($"Width = {ClientSize.Width}, Height = {ClientSize.Height}", "Sizes of client's window");
                 }
                 else
                 {
-                    MessageBox.Show($"Клик правой кнопкой мыши внутри прямоугольника", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show($"Right-click inside the rectangle", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     MessageBox.Show($"Width = {ClientSize.Width}, Height = {ClientSize.Height}", "Sizes of client's window");
                 }
             }
@@ -41,23 +41,23 @@ namespace WinFormsDZ22
             {
                 if((e.X == ClientSize.Width - 10) || (e.Y == ClientSize.Height - 10))
                 {
-                    MessageBox.Show($"Клик левой кнопкой мыши на границе прямоугольника!", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show($"Left-click on the border of the rectangle!", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 }
                 else
                 {
-                    MessageBox.Show($"Клик левой кнопкой мыши за границами прямоугольника", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show($"Left-click outside the rectangle borders", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 }
             }
             if (e.Button == MouseButtons.Right)
             {
                 if ((e.X == ClientSize.Width - 10) || (e.Y == ClientSize.Height - 10))
                 {
-                    MessageBox.Show($"Клик правой кнопкой мыши на границе прямоугольника!", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show($"Right-click on the border of the rectangle!", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     MessageBox.Show($"Width = {ClientSize.Width}, Height = {ClientSize.Height}", "Sizes of client's window");
                 }
                 else
                 {
-                    MessageBox.Show($"Клик правой кнопкой мыши за границами прямоугольника", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show($"Right-click outside the rectangle borders", "Click", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     MessageBox.Show($"Width = {ClientSize.Width}, Height = {ClientSize.Height}", "Sizes of client's window");
                 }
             }
